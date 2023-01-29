@@ -1,0 +1,30 @@
+pco2:
+  attrs:
+    long_name: "pCO$_2$"
+    units: ppm
+
+fgco2:
+  units_convert_factor: 31536.0 # seconds/year * (1 mol/1e3 mmol)
+  attrs:
+    long_name: "Air-sea CO$_2$ flux"
+    units: "mol m$^{-2}$ yr$^{-1}$"
+
+pH:
+  attrs:
+    long_name: pH
+    units: ''
+
+revelle_factor:
+  attrs:
+    long_name: Revelle Factor
+    units: ''
+
+dDICdCO2:
+  attrs:
+    long_name: dDICdCO2
+    units: ''
+
+xkw:
+  attrs:
+    long_name: Gas transfer velocity
+    units: m/s

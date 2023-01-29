@@ -1,0 +1,53 @@
+u10:
+  default_value: 7.5
+  attrs:
+    units: "m/s"
+    long_name: "Wind speed"
+
+salt:
+  default_value: 35.0
+  attrs:
+    units: "psu"
+    long_name: "Salinity"
+
+temp:
+  default_value: 20.0
+  attrs:
+    units: "deg C"
+    long_name: Temperature
+
+patm:
+  default_value: 1.0
+  attrs:
+    units: "atm"
+    long_name: "Atmospheric pressure"
+
+alk_flux:
+  default_value: 0.0
+  attrs:
+    units: "mmol/m^2/s"
+    long_name: "Alkalinity surface forcing"
+
+fice:
+  default_value: 0.0
+  attrs:
+    units: "fraction"
+    long_name: "Ice fraction"
+
+h:
+  default_value: 100.0
+  attrs:
+    units: "m"
+    long_name: "MLD"
+
+Xco2atm:
+  default_value: 425.0
+  attrs:
+    units: "ppm"
+    long_name: "CO2"
+
+area:
+  default_value: 10000000000.0
+  attrs:
+    units: m^2
+    long_name: area

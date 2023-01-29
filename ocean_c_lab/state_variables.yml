@@ -1,0 +1,6 @@
+dic:
+  long_name: Dissolved inorganic carbon
+  units: mmol/m^3
+alk:
+  long_name: Alkalinity
+  units: meq/m^3
